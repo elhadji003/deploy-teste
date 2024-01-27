@@ -1,0 +1,12 @@
+.text-end-student.text-end{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+@media screen and (max-width: 567px) {
+    .btn-student{
+        text-align: end;
+        position: relative;
+        top: -30px;
+    }
+}

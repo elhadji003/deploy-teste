@@ -1,0 +1,26 @@
+
+.input-1 input{
+    width: 400px;
+}
+.input-file input{
+    width: 300px;
+}
+.submit-lesson {
+    margin-left: 228px;
+}
+@media screen and (max-width: 576px) {
+    .form-lesson{
+        background: gainsboro;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .input-1 input{
+        width: 188px;
+    }
+    .input-file input{
+        width: 100%
+    }
+    .submit-lesson {
+        margin-left: 0px;
+    }
+}

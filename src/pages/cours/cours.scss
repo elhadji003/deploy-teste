@@ -1,0 +1,303 @@
+body{
+    overflow: visible;
+}
+
+
+.logos-header .logo-user{
+    width: 60px; height: 60px; border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+
+}
+.users{
+    border: 1px solid black;
+    background: white;
+    padding: 5px;
+    border-radius: 30px ;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.users h5{
+    position: relative;
+    top: 3px;
+}
+
+.users:hover{
+    background: #000;
+    color: white;
+}
+
+.logos-header .titre{
+    position: relative;
+    top: 10px;
+    border-right: 4px solid rgb(45, 44, 44)  ;
+    padding: 5px;
+}
+
+.cours{
+    background: gainsboro;
+    border-radius: 30px 0px 0px 30px;
+}
+.cours{
+    
+    .sidebar{
+        visibility: hidden;
+    }   
+    
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.info-left{
+    display: flex;
+}
+.title-cours{
+    background: rgb(45, 44, 44);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    top: 10px;
+}
+.form input {
+    padding: 10px;
+    border-radius: 10px;
+}
+.form input::placeholder {
+    color: gainsboro;
+}
+
+.myImg{
+    width: 150px;
+    height: 80px;
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.titre{
+    font-size: 16px;
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+.date{
+    font-size: 11px;
+    position: relative;
+    top: 5px;
+    left: 30px;
+    
+}
+.n-lesson{
+    position: relative;
+    top: 10px;
+    left: 28px;
+    font-weight: bold;
+}
+.text-end .text-end-child{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    position: relative;
+    left: 80px;
+}
+.text-end .text-end-child .p{
+    position: relative;
+    top: 8px;
+    left: 2px;
+}
+.text-end span{
+    color: rgb(26, 21, 22);    
+}
+
+.cour-bg{
+    width: 500px;
+    height: 100px;
+}
+.coachs{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 567px) {
+    .cour-bg{
+        width: auto;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    // .info-left{
+
+    // }
+   
+    .text{
+        width: 100%;
+    }
+    .text .titre{
+        position: relative;
+        top: -10px;
+        left: -160px;
+    }
+    .myImg {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 0px;
+        top: 15px;
+    }
+    .text .date{
+        position: relative;
+        top: 80px;
+        left: -140px;
+    }
+    .text .n-lesson{
+        position: relative;
+        top: 80px;
+        left: -155px;
+    }
+    .text-end{
+        position: relative;
+        top: 140px;
+        left: -75px;
+        margin: 0;
+    }
+    .text-end p, .point {
+        display: none;
+    }
+
+    .text-end.theBtn{
+        left: 0px;
+        top: 10px;
+        padding: 2px;
+    }
+    .buttons-container{
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    .teacher.ms-3 {
+        width: 100%;
+        position: relative;
+        left: -15px;
+        margin-top: 20px;
+    }
+    .myUser{
+        display: flex;
+        flex-direction: column;
+    }
+    h4.text-light.animate__animated.animate__fadeInDownBig{
+        font-size: 17px;
+        position: relative;
+        left: 25px;
+        top: 10px;
+    }
+    .users {
+        position: relative;
+        top: 20px;
+        left: -80px;
+    }
+    .logo-users{
+        position: relative;
+        top: 0px;
+        left: -50px;
+    }
+    .coachs{
+        display: flex;
+        flex-direction: column;
+    }
+    .coach-info.fw-bold{
+        width: 80%;
+    }
+}
+
+.myUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teacher{
+    background: wheat;
+    width: 55%;
+    padding: 10px;
+    height: auto;
+    margin-left: -140px;
+    border-radius: 20px 0px 0px 20px;
+}
+.p-datepicker-next, .p-datepicker-prev{
+    border: none;
+}
+.card{
+    padding: 20px;
+}
+th{
+    position: relative;
+    left: 0px;
+}
+.p-datepicker-year{
+    position: relative;
+    left: 10px;
+    background: wheat;
+    padding: 2px;
+    border-radius: 10px;
+}
+.admin-photo{
+    width: 60px; height: 60px; border-radius: 50%;
+    background-image: url(../../assets/img/admin.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.coachs{
+    background: white;
+    border-radius: 20px;
+}
+.coach-photo{
+    width: 70px; height: 80px; border-radius: 10px;
+    background-image: url(../../assets/img/admin.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 3s ease-in-out;
+}
+
+.coach-photo-radio{
+    padding: 20px;
+    position: relative;
+    left: 40px;
+}
+
+.coach-info {
+    background: skyblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 15px 15px 0px;
+    display: none;
+}
+
+#toggleCoachInfo_0:checked ~ .coach-info,
+#toggleCoachInfo_1:checked ~ .coach-info,
+#toggleCoachInfo_2:checked ~ .coach-info,
+#toggleCoachInfo_3:checked ~ .coach-info,
+#toggleCoachInfo_4:checked ~ .coach-info,
+#toggleCoachInfo_5:checked ~ .coach-info,
+#toggleCoachInfo_6:checked ~ .coach-info {
+    display: block;
+}
+.theBtn{
+    position: relative;
+    margin-top: -10px;
+    left: 200px;
+    top: -6px;
+}
+.theBtn .buttons-container button{
+    border: none;
+    margin: 2px;
+    background: none;
+}
+

@@ -1,0 +1,34 @@
+.sidebar{
+    margin-left: -14px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    position: fixed;
+}
+.lhYbII.toggled {
+    width: 80px;
+    min-width: 65px;
+    position: fixed;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+.sc-JrDLc.lhYbII.pro-sidebar.sidebar{
+    position: fixed;
+    height: 100%;
+}
+
+@media screen and (max-width: 567px) {
+    .sc-fBWQRz{
+        width: 100%;
+    }
+    .lhYbII.toggled {
+        width: 80px;
+        min-width: 50px;
+    }
+    .sc-JrDLc.lhYbII.pro-sidebar.sidebar{
+        position: fixed;
+        height: 100%;
+    }
+    
+    
+}

@@ -1,10 +1,6 @@
-a{
-  text-decoration: none;
-  color: white;
-  padding: 5px;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-.navbar{
-  background: gainsboro;
-  display: flex;
-  justify-content: center;
-}
+

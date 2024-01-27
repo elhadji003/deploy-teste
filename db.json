@@ -1,0 +1,114 @@
+{
+  "professors": [
+    {
+      "firstName": "Fatou",
+      "name": "Ndaw",
+      "filiere": "Marketing",
+      "email": "ndaofatou@gmail.com",
+      "tel": "774418127",
+      "id": "d345"
+    },
+    {
+      "id": "1b38",
+      "firstName": "Demba",
+      "name": "Diop",
+      "filiere": "Marketing",
+      "email": "piodlords03@gmail.com",
+      "tel": "779323859"
+    },
+    {
+      "id": "c999",
+      "firstName": "Elhadji Malick",
+      "name": "Diop",
+      "filiere": "Marketing",
+      "email": "malickelhadji07@gmail.com",
+      "tel": "771341649"
+    },
+    {
+      "id": "54d4",
+      "firstName": "Assane",
+      "name": "Gueye",
+      "filiere": "Programmer",
+      "email": "assaneg234@gmail.com",
+      "tel": "773241637"
+    },
+    {
+      "id": "0934",
+      "firstName": "Diakhou",
+      "name": "Ndiaye",
+      "filiere": "Design",
+      "email": "nddiakhou09@mail.com",
+      "tel": "770342123"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "34cc",
+      "title": "Design",
+      "date": "18 Janvier 2024",
+      "lessonsCount": "21 ",
+      "duration": "12mn",
+      "image": "https://firebasestorage.googleapis.com/v0/b/my-app-13-a1036.appspot.com/o/images%2Fdesign.avif?alt=media&token=dcc64863-8416-4fdf-afb5-75c01c733374"
+    },
+    {
+      "id": "e09d",
+      "title": "UI/IX",
+      "date": "Vendredi 19/01/2024",
+      "lessonsCount": "08",
+      "duration": "15mn",
+      "image": "https://firebasestorage.googleapis.com/v0/b/my-app-13-a1036.appspot.com/o/images%2FUI.avif?alt=media&token=c62b901f-b490-407f-94ff-8f4ae4ac123e"
+    },
+    {
+      "id": "a278",
+      "title": "Cinema 4D",
+      "date": "18 Janvier 2024",
+      "lessonsCount": "22",
+      "duration": "40mn",
+      "image": "https://firebasestorage.googleapis.com/v0/b/my-app-13-a1036.appspot.com/o/images%2Fcinema3d.jpg?alt=media&token=ff062ff4-4e60-4bf0-b54f-d2aeb9ec091d"
+    }
+  ],
+  "archived-lessons": [
+    {
+      "id": "553f",
+      "title": "Cinema 4D",
+      "date": "18 Janvier 2024",
+      "lessonsCount": "60",
+      "duration": "1h",
+      "image": "https://firebasestorage.googleapis.com/v0/b/my-app-13-a1036.appspot.com/o/images%2Fcinema3d.jpg?alt=media&token=5b0624e6-864e-4eeb-a7c2-f8cc601d5468"
+    },
+    {
+      "id": "a278",
+      "title": "Cinema 4D",
+      "date": "18 Janvier 2024",
+      "lessonsCount": "22",
+      "duration": "40mn",
+      "image": "https://firebasestorage.googleapis.com/v0/b/my-app-13-a1036.appspot.com/o/images%2Fcinema3d.jpg?alt=media&token=ff062ff4-4e60-4bf0-b54f-d2aeb9ec091d"
+    },
+    {
+      "id": "a278",
+      "title": "Cinema 4D",
+      "date": "18 Janvier 2024",
+      "lessonsCount": "22",
+      "duration": "40mn",
+      "image": "https://firebasestorage.googleapis.com/v0/b/my-app-13-a1036.appspot.com/o/images%2Fcinema3d.jpg?alt=media&token=ff062ff4-4e60-4bf0-b54f-d2aeb9ec091d"
+    }
+  ],
+  "students": [
+    {
+      "id": "ad5e",
+      "firstName": "Elhadji Malick",
+      "name": "diop",
+      "cours": "Programmer",
+      "email": "malickelhadji07@gmail.com",
+      "tel": "87654312"
+    },
+    {
+      "id": "35b6",
+      "firstName": "Thierno",
+      "name": "Ba",
+      "cours": "Programmation",
+      "email": "thier04ramos@gmail.com",
+      "tel": "87654312"
+    }
+  ]
+}
